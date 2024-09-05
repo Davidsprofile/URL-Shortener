@@ -1,0 +1,4 @@
+Test the URL shortening: Use curl to shorten a URL:
+curl -X POST -d "url=https://www.example.com" http://localhost:8080/shorten
+
+Test the redirection: Open the shortened URL in your browser:
